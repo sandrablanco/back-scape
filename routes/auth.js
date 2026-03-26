@@ -1,6 +1,6 @@
 const express = require('express')
 const bcrypt = require('bcrypt')
-const User = require('../models/User')
+const Client = require('../models/Client')
 
 const router = express.Router()
 
@@ -10,14 +10,14 @@ router.post('/register', async (req, res) => {
 
     const hashedPassword = await bcrypt.hash(password, 10)
 
-    const user = new User({
+    const client = new Client({
       name,
       surname,
       email,
       password: hashedPassword
     })
 
-    await user.save()
+    await client.save()
 
     res.status(201).json({ message: 'Usuario creado' })
 
