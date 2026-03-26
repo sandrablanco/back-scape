@@ -57,7 +57,38 @@ router.post('/login', async (req, res) => {
 })
 
 router.get('/protected', authMiddleware, (req, res) => {
-  res.json({ message: `Hola${req.client.name} ya estas autenticado` })
-}
+  res.json({ message: `Hola ${req.client.name}, ya estás autenticado` })
+})
+
+router.post('/level', authMiddleware, async (req, res) => {
+  try {
+    const { newLevel } = req.body
+
+    // buscar usuario en DB
+    const client = await Client.findById(req.client.id)
+
+    if (!client) {
+      return res.status(404).json({ message: 'Usuario no encontrado' })
+    }
+
+    // evitar retroceder nivel
+    if (newLevel <= client.currentLevel) {
+      return res.status(400).json({ message: 'No se puede retroceder el nivel' })
+    }
+
+    // actualizar nivel
+    client.currentLevel = newLevel
+    await client.save()
+
+    res.json({
+      message: `Has avanzado al nivel: ${newLevel}`,
+      "tu nivel actual es": client.currentLevel
+    })
+
+  } catch (error) {
+    res.status(500).json({ error: error.message })
+  }
+})
+
 
 module.exports = router
