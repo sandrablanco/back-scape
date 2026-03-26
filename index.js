@@ -11,6 +11,7 @@ app.use(cors())
 app.use(express.json())
 app.use('/auth', authRoutes)
 
+
 // conexión a MongoDB
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MongoDB conectado'))
@@ -18,7 +19,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 // ruta de prueba
 app.get('/', (req, res) => {
-  res.send('API funcionando 🚀')
+  res.send('API funcionando ✅')
 })
 
 const PORT = process.env.PORT || 3000
