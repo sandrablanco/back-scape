@@ -3,6 +3,7 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const Client = require('../models/Client')
 const authMiddleware = require('../middleware/auth')
+const levels = require('../data/levels')
 
 
 const router = express.Router()
@@ -107,6 +108,15 @@ router.get('/me', authMiddleware, async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message })
   }
+})
+// obtener datos de un nivel específico
+router.get('/levels/:level', authMiddleware, (req, res) => {
+  const levelNumber = parseInt(req.params.level)
+  const level = levels.find(l => l.level === levelNumber)
+
+  if (!level) return res.status(404).json({ message: 'Nivel no encontrado' })
+
+  res.json(level)
 })
 
 module.exports = router
