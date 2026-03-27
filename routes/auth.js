@@ -89,6 +89,24 @@ router.post('/level', authMiddleware, async (req, res) => {
     res.status(500).json({ error: error.message })
   }
 })
+ //saber que usuario es y en que nivel esta y poder ir a ese nivel
+router.get('/me', authMiddleware, async (req, res) => {
+  try {
+    const client = await Client.findById(req.client.id).select('-password')
 
+    if (!client) {
+      return res.status(404).json({ message: 'Usuario no encontrado' })
+    }
+
+    res.json({
+      name: client.name,
+      email: client.email,
+      currentLevel: client.currentLevel
+    })
+
+  } catch (error) {
+    res.status(500).json({ error: error.message })
+  }
+})
 
 module.exports = router
