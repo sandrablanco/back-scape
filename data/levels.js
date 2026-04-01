@@ -15,6 +15,7 @@ const levels = [
     level: 2,
     type: 'image',
     story: 'Despues de la cita como has caido en sus redes, el chico finalmente consigue lo que quería y te acaba haciendo ghosting y te llevas otro chasco oh 💔. Pasa el tiempo y reaparece un amigo tuyo de hace mucho tiempo atrás de cuando ibais juntos a boxeo. Te protege como buen amigo, te propone planes, te habla casi a todas horas y te dice de acudir al museo para distraerte un rato. Llevais un rato viendo cuadros pero uno en especial llama vuestra atencion. El chico te pregunta: ',
+    image: 'https://wl-genial.cf.tsp.li/resize/1200x630/webp/cb4/cac/1bbe835e09af7466eaa9222fca.jpg.webp',
     question: '¿Qué ves?',
     answer: 'un perro'
   },
