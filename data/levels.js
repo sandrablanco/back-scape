@@ -13,15 +13,16 @@ const levels = [
   },
   {
     level: 2,
-    type: 'text',
-    question: 'Escucha el audio y escribe lo que entiendes',
-    answer: 'hola mundo'
+    type: 'image',
+    story: 'Despues de la cita como has caido en sus redes, el chico finalmente consigue lo que quería y te acaba haciendo ghosting y te llevas otro chasco oh 💔. Pasa el tiempo y reaparece un amigo tuyo de hace mucho tiempo atrás de cuando ibais juntos a boxeo. Te protege como buen amigo, te propone planes, te habla casi a todas horas y te dice de acudir al museo para distraerte un rato. Llevais un rato viendo cuadros pero uno en especial llama vuestra atencion. El chico te pregunta: ',
+    question: '¿Qué ves?',
+    answer: 'un perro'
   },
   {
     level: 3,
-    type: 'image',
-    question: '¿Qué ves en la imagen?',
-    answer: 'perro'
+    type: 'text',
+    question: 'Escucha el audio y escribe lo que entiendes',
+    answer: 'un chinito pescando'
   },
    {
     level: 4,
