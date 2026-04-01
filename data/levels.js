@@ -9,7 +9,7 @@ const levels = [
         'Porque si lo dice el capitán va a misa',
         'Porque si se tiran de frente caen dentro de la lancha'
     ],
-    answer: 'porque si se tiran de frente caen dentro de la lancha'
+    correctAnswer: 'porque si se tiran de frente caen dentro de la lancha'
   },
   {
     level: 2,
