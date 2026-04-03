@@ -25,7 +25,7 @@ const levels = [
     story: 'Tu veias claramente un perro y el un gato por lo que buscaste en una pagina de psicología que quien veía un gato era un viva la pepa y poco empático y quién veía un perro era leal asi que lo ves como una red flag🚩 y le mandas a donde Cristo perdió el mechero. Pasado un tiempo tienes un percance en el trabajo y decides acudir a un profesional que te asesore. Como le caes en gracia te pide que os tomeis una cerveza en el bar de aqui al lado que ponen buena música. Spoiler: te gusta el rock demasiado asi que aceptas. El chico te ha invitado a unas cuantas cervezas y avisa que viene su canción favorita, una balada rockera. Te dice: ',
     question: 'Mira no se mucho inglés pero hay un trocito que me hace mucha gracia porque parece que dice algo en español',
     correctAnswer: 'un chinito pecando' || 'chinito pecando' ,
-    audio: 'https://suno.com/s/p2V1xmMUZEW7szTL'
+    audio: 'https://res.cloudinary.com/du5e2crvt/video/upload/v1775234032/Candlelit_Glass_yjs5dw.mp3'
   },
    {
     level: 4,
