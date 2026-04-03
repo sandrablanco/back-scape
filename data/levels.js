@@ -30,6 +30,7 @@ const levels = [
    {
     level: 4,
     type: 'puzzle',
+    story: 'Aciertas con lo que dice la canción que el chico se pone tan contento que se avalanza sobre ti y te besa. Tu le apartas en plan que haces? y el otro se queda bloqueado diciendo tienes razón es que estoy en crisis con mi novia. Inmediatamente sales huyendo despavorida. Regresas a casa decepcionada y renagando de los hombres. Pasado un tiempo te llega un mensaje de tu ex que te dice que se ha dado cuenta de que no era el momento para dejarte y que quiere volver contigo. Tu le dices que no quieres saber nada de él pero el insiste y te dice que si quieres quedar para hablar. Tu aceptas porque quieres cerrar ese capítulo de tu vida y el día de la cita te propone un juego para romper el hielo como sabe que te gustan los juegos te plantea el siguiente puzzle: ',
     pieces: ['pieza1', 'pieza2', 'pieza3', 'pieza4', 'pieza5', 'pieza6'],
     solution: ['pieza2', 'pieza4', 'pieza1', 'pieza5', 'pieza3', 'pieza6']
 },
