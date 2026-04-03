@@ -32,8 +32,20 @@ const levels = [
     type: 'puzzle',
     story: '.Aciertas con lo que dice la canción, que el chico se pone tan contento que se avalanza sobre ti y te besa. Tu le apartas en plan: ¿qué haces?🤨 y el otro se queda bloqueado diciendo tienes razón es que estoy en crisis con mi novia. Inmediatamente sales huyendo despavorida. Regresas a casa decepcionada y renagando de los hombres. Pasado un tiempo te llega un mensaje de tu ex que te dice que se ha dado cuenta de que no era el momento para dejarte y que quiere volver contigo. Tu le dices que no quieres saber nada de él pero el insiste y te dice que si quieres quedar para hablar e invitarte a un café. Tu aceptas porque quieres cerrar ese capítulo de tu vida y el día de la cita te propone un juego para romper el hielo como sabe que te gustan los juegos, saca una vieja caja y al destaparla y volcar las piezas sobre la mesa te dice: ',
     question: 'No he dejado de pensar el jardin que creamos juntos. Lleno de ortensias por todos lados:',
-    pieces: ['/puzzle/1.jpg', '/puzzle/2.jpg', '/puzzle/3.jpg', '/puzzle/4.jpg', '/puzzle/5.jpg', '/puzzle/6.jpg'],
-    correctAnswer: ['2', '4', '1', '5', '3', '6']
+    pieces: [
+      'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238099/pieza1_cnd2j0.jpg',
+      'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238107/pieza2_u2sgz5.jpg',
+      'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238120/pieza3_tim2jf.jpg',
+      'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238126/pieza4_oze23x.jpg', 
+      'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238132/pieza5_gz9qli.jpg',
+      'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238136/pieza6_lqstsi.jpg'],
+    correctAnswer: [
+       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238107/pieza2_u2sgz5.jpg',
+       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238126/pieza4_oze23x.jpg',
+       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238099/pieza1_cnd2j0.jpg',
+       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238132/pieza5_gz9qli.jpg',
+       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238132/pieza5_gz9qli.jpg',
+       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238132/pieza5_gz9qli.jpg']
 },
    {
     level: 5,
