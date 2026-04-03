@@ -14,7 +14,7 @@ const levels = [
   {
     level: 2,
     type: 'image',
-    story: 'Despues de la cita como has caido en sus redes, el chico finalmente consigue lo que quería y te acaba haciendo ghosting y te llevas otro chasco oh 💔. Pasa el tiempo y reaparece un amigo tuyo de hace mucho tiempo atrás de cuando ibais juntos a boxeo. Te protege como buen amigo, te propone planes, te habla casi a todas horas y te dice de acudir al museo para distraerte un rato. Llevais un rato viendo cuadros pero uno en especial llama vuestra atencion. El chico te pregunta: ',
+    story: '.Despues de la cita como has caido en sus redes, el chico finalmente consigue lo que quería y te acaba haciendo ghosting y te llevas otro chasco oh 💔. Pasa el tiempo y reaparece un amigo tuyo de hace mucho tiempo atrás de cuando ibais juntos a boxeo. Te protege como buen amigo, te propone planes, te habla casi a todas horas y te dice de acudir al museo para distraerte un rato. Llevais un rato viendo cuadros pero uno en especial llama vuestra atencion. El chico te pregunta: ',
     image: 'https://wl-genial.cf.tsp.li/resize/1200x630/webp/cb4/cac/1bbe835e09af7466eaa9222fca.jpg.webp',
     question: '¿Qué ves?',
     correctAnswer: 'un perro' || 'perro'
@@ -22,7 +22,7 @@ const levels = [
   {
     level: 3,
     type: 'audio',
-    story: 'Tu veias claramente un perro y el un gato por lo que buscaste en una pagina de psicología que quien veía un gato era un viva la pepa y poco empático y quién veía un perro era leal asi que lo ves como una red flag🚩 y le mandas a donde Cristo perdió el mechero. Pasado un tiempo tienes un percance en el trabajo y decides acudir a un profesional que te asesore. Como le caes en gracia te pide que os tomeis una cerveza en el bar de aqui al lado que ponen buena música. Spoiler: te gusta el rock demasiado asi que aceptas. El chico te ha invitado a unas cuantas cervezas y avisa que viene su canción favorita, una balada rockera. Te dice: ',
+    story: '.Tu veias claramente un perro y el un gato por lo que buscaste en una pagina de psicología que quien veía un gato era un viva la pepa y poco empático y quién veía un perro era leal asi que lo ves como una red flag🚩 y le mandas a donde Cristo perdió el mechero. Pasado un tiempo tienes un percance en el trabajo y decides acudir a un profesional que te asesore. Como le caes en gracia te pide que os tomeis una cerveza en el bar de aqui al lado que ponen buena música. Spoiler: te gusta el rock demasiado asi que aceptas. El chico te ha invitado a unas cuantas cervezas y avisa que viene su canción favorita, una balada rockera. Te dice: ',
     question: 'Mira no se mucho inglés pero hay un trocito que me hace mucha gracia porque parece que dice algo en español',
     correctAnswer: 'un chinito pecando' || 'chinito pecando' ,
     audio: 'https://res.cloudinary.com/du5e2crvt/video/upload/v1775234032/Candlelit_Glass_yjs5dw.mp3'
@@ -30,7 +30,7 @@ const levels = [
    {
     level: 4,
     type: 'puzzle',
-    story: 'Aciertas con lo que dice la canción que el chico se pone tan contento que se avalanza sobre ti y te besa. Tu le apartas en plan: ¿qué haces?🤨 y el otro se queda bloqueado diciendo tienes razón es que estoy en crisis con mi novia. Inmediatamente sales huyendo despavorida. Regresas a casa decepcionada y renagando de los hombres. Pasado un tiempo te llega un mensaje de tu ex que te dice que se ha dado cuenta de que no era el momento para dejarte y que quiere volver contigo. Tu le dices que no quieres saber nada de él pero el insiste y te dice que si quieres quedar para hablar e invitarte a un café. Tu aceptas porque quieres cerrar ese capítulo de tu vida y el día de la cita te propone un juego para romper el hielo como sabe que te gustan los juegos, saca una vieja caja y al destaparla y volcar las piezas sobre la mesa te dice: ',
+    story: '.Aciertas con lo que dice la canción, que el chico se pone tan contento que se avalanza sobre ti y te besa. Tu le apartas en plan: ¿qué haces?🤨 y el otro se queda bloqueado diciendo tienes razón es que estoy en crisis con mi novia. Inmediatamente sales huyendo despavorida. Regresas a casa decepcionada y renagando de los hombres. Pasado un tiempo te llega un mensaje de tu ex que te dice que se ha dado cuenta de que no era el momento para dejarte y que quiere volver contigo. Tu le dices que no quieres saber nada de él pero el insiste y te dice que si quieres quedar para hablar e invitarte a un café. Tu aceptas porque quieres cerrar ese capítulo de tu vida y el día de la cita te propone un juego para romper el hielo como sabe que te gustan los juegos, saca una vieja caja y al destaparla y volcar las piezas sobre la mesa te dice: ',
     question: 'No he dejado de pensar el jardin que creamos juntos. Lleno de ortensias por todos lados:',
     pieces: ['/puzzle/1.jpg', '/puzzle/2.jpg', '/puzzle/3.jpg', '/puzzle/4.jpg', '/puzzle/5.jpg', '/puzzle/6.jpg'],
     correctAnswer: ['2', '4', '1', '5', '3', '6']
