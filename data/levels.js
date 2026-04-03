@@ -44,8 +44,8 @@ const levels = [
        'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238126/pieza4_oze23x.jpg',
        'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238099/pieza1_cnd2j0.jpg',
        'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238132/pieza5_gz9qli.jpg',
-       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238132/pieza5_gz9qli.jpg',
-       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238132/pieza5_gz9qli.jpg']
+       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238120/pieza3_tim2jf.jpg',
+       'https://res.cloudinary.com/du5e2crvt/image/upload/v1775238136/pieza6_lqstsi.jpg']
 },
    {
     level: 5,
