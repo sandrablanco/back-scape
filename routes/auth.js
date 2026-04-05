@@ -119,4 +119,9 @@ router.get('/levels/:level', authMiddleware, (req, res) => {
   res.json(level)
 })
 
+router.post('/logout', authMiddleware, (req, res) => {
+  res.json({ message: 'Sesión cerrada correctamente' })
+})
+
+
 module.exports = router
