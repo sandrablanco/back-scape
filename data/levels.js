@@ -76,7 +76,7 @@ const levels = [
      {
     level: 7,
     type: 'the end',
-    story:'. Al final consigues salir de la pesadilla y te hace click el algo y decides que estas muy bien sola, que no necesitas a nadie para ser feliz y que tu historia de amor va a ser contigo misma. Te quieres, te cuidas, te respetas y te valoras. Eres tu mejor compañía y tu mejor amiga. Y así es como termina tu historia de amor, con un final feliz contigo misma.😍',
+    story:'. Al final consigues salir de la pesadilla y en tu cabeza hay algo que te hace click y decides que estás muy bien sola, que no necesitas a nadie para ser feliz y que tu historia de amor va a ser contigo misma. Te quieres, te cuidas, te respetas y te valoras. Eres tu mejor compañía y tu mejor amiga. Y así es como termina tu historia de amor, con un final feliz contigo misma.😍',
     
   },
 
