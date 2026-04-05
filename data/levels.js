@@ -60,17 +60,17 @@ const levels = [
     type: 'maze',
     story: '. Con todo lo que te ha pasado últimamente sientes que si hicieras un guión y se lo vendieras a Netlfix sería un éxito total. Te sientes como la protagonista de una película de amor y desamor y quieres que tu historia tenga un final feliz. Esa noche tienes una pesadilla, al principio experimentas ansiedad y miedo 🥴 no sabes donde estas, pero poco a poco vas reconociendo el lugar y te das cuenta de que estas en un laberinto. El laberinto es tu mente y tienes que encontrar la salida para despertar de la pesadilla.',
       maze: [
-      ['S', '.', 'X', '.'], // S = Start, E = End, X = Wall, . = Path
-      ['X', '.', 'X', '.'],
-      ['.', '.', '.', 'X'],
-      ['X', 'X', '.', 'X'],
-      ['.', '.', '.', 'X'],
-      ['.', 'X', 'X', 'X'],
-      ['.', '.', '.', 'X'],
-      ['X', 'X', '.', 'E'],
+      ['S', '.', 'X', '.', '.'], // S = Start, E = End, X = Wall, . = Path
+      ['X', '.', 'X', '.', 'X'],
+      ['.', '.', '.', 'X', '.'],
+      ['X', 'X', '.', 'X', 'X'],
+      ['.', '.', '.', 'X', 'E'],
+      ['.', 'X', 'X', 'X', '.'],
+      ['.', '.', '.', 'X', '.'],
+      ['X', 'X', '.', '.', '.'],
     ],
     start: { x: 0, y: 0 }, //Coordenadas de inicio x= fila y =columna
-    end: { x: 7, y: 3 }
+    end: { x: 4, y: 4 }
     
   },
      {
