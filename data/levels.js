@@ -55,10 +55,14 @@ const levels = [
       ['S', '.', 'X', '.'], // S = Start, E = End, X = Wall, . = Path
       ['X', '.', 'X', '.'],
       ['.', '.', '.', 'X'],
-      ['X', 'X', '.', 'E']
+      ['X', 'X', '.', 'X'],
+      ['.', '.', '.', 'X'],
+      ['.', 'X', 'X', 'X'],
+      ['.', '.', '.', 'X'],
+      ['X', 'X', '.', 'E'],
     ],
     start: { x: 0, y: 0 }, //Coordenadas de inicio x= fila y =columna
-    end: { x: 3, y: 3 }
+    end: { x: 7, y: 3 }
     
   },
      {
