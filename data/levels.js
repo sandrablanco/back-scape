@@ -51,7 +51,7 @@ const levels = [
     level: 5,
     type: 'wordsearch',
     story: '. Superas el reto del puzzle y te has aclarado las ideas de que con el ex no se vuelve, que por algo es ex. No obstante, aparece el ex de tu amiga un día con la excusa de verte para decirte lo mal que se encuentra. Accedes por qué como eres una buena samaritana quieres darle tu apoyo y escuchar su versión. Rápidamente los dias siguientes te empieza a dar 🔥 a tus stories en Instagram, te comenta que que guapa. Te manda mensajes privados y te propone un juego para conoceros mejor en el que el inevitablemente empieza a subir el tono de la conversación. Evidentemente intuyes por donde va y le paras los pies. Para evadirte un rato coges la sopa de letras de tu madre y te sorprendes al ver que hay palabras relacionadas con el tipo de relaciones tóxicas que has tenido últimamente. Te preguntas si es una señal del universo o simplemente es tu mente buscando respuestas a lo que te ha pasado. De repente te das cuenta de que hay tres palabras que se repiten una y otra vez y que parecen ser la clave para entender lo que te ha pasado.',
-    question: 'Mira no se mucho inglés pero hay un trocito que me hace mucha gracia porque parece que dice algo en español',
+    question: '¿Qué palabras son?',
     correctAnswer: 'lovebombing' && 'breadcrumbing' && 'ghosting' 
     
   },
