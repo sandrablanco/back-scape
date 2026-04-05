@@ -50,6 +50,7 @@ const levels = [
    {
     level: 5,
     type: 'maze',
+    story: '.Has resuelto el puzzle y te has aclarado las ideas que con el ex no se vuelve porque por algo es ex. Con todo lo que te ha pasado últimamente sientes que si hicieras un guión y se lo vendieras a Netlfix sería un éxito total. Te sientes como la protagonista de una película de amor y desamor y quieres que tu historia tenga un final feliz. Esa noche tienes una pesadilla, al principio experimentas ansiedad y miedo 🥴 no sabes donde estas, pero poco a poco vas reconociendo el lugar y te das cuenta de que estas en un laberinto. El laberinto es tu mente y tienes que encontrar la salida para despertar de la pesadilla.',
       maze: [
       ['S', '.', 'X', '.'], // S = Start, E = End, X = Wall, . = Path
       ['X', '.', 'X', '.'],
@@ -60,6 +61,13 @@ const levels = [
     end: { x: 3, y: 3 }
     
   },
+     {
+    level: 6,
+    type: 'the end',
+    story:'. Al final consigues salir de la pesadilla y te hace click el algo y decides que estas muy bien sola, que no necesitas a nadie para ser feliz y que tu historia de amor va a ser contigo misma. Te quieres, te cuidas, te respetas y te valoras. Eres tu mejor compañía y tu mejor amiga. Y así es como termina tu historia de amor, con un final feliz contigo misma.😍',
+    
+  },
+
 ]
 
 module.exports = levels
