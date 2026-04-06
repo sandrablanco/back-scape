@@ -7,7 +7,9 @@ require('dotenv').config()
 const app = express()
 
 // middlewares
-app.use(cors())
+app.use(cors({
+  origin: 'https://unfollowalheart.onrender.com'
+}));
 app.use(express.json())
 app.use('/auth', authRoutes)
 app.use('/puzzle', express.static('public/puzzle'))
