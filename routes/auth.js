@@ -112,6 +112,7 @@ router.get('/me', authMiddleware, async (req, res) => {
 // obtener datos de un nivel específico
 router.get('/levels/:level', authMiddleware, (req, res) => {
   const levelNumber = parseInt(req.params.level)
+   console.log('Pidiendo nivel:', levelNumber)
   const level = levels.find(l => l.level === levelNumber)
 
   if (!level) return res.status(404).json({ message: 'Nivel no encontrado' })
